@@ -4,7 +4,7 @@ import {Redirect} from 'react-router-dom'
 import memoryUtils from '../../utils/memoryUtils'
 import storageUtils from '../../utils/storageUtils'
 import {reqLogin} from '../../api'
-import logo from './images/logo.png'
+import logo from '../../assets/images/logo.png'
 import "./login.less"
 
 const Item = Form.Item
@@ -25,6 +25,7 @@ class Login extends Component {
                 }else{
                     message.error(result.msg)
                 }
+                
             }else{
                // alert('验证失败')
             }
