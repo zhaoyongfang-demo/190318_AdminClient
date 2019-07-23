@@ -45,7 +45,7 @@ export default class ProductHome extends Component {
       },
       {
         title: '状态',
-        width:50,
+        width:100,
         //dataIndex: 'status',
         render: ({_id,status}) => {
           let btnText = '下架'
